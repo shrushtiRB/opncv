@@ -4,8 +4,6 @@
 # where its functionality resides 
 import cv2 
 
-# load the required trained XML classifiers 
-# https://github.com/Itseez/opencv/blob/master/ 
 f positive(faces) and negative(non-faces) 
  
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml') 
